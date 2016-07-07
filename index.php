@@ -34,7 +34,7 @@ require_once 'helpers/security.php';
 			</label>
 			<label>
 				Your email address*
-				<input type="text" name="email" autocomplete="off" <?php echo isset($fields['email']) ? ' value="' .e($fields['email']). '" ' : ''  ?>>
+				<input type="email" name="email" autocomplete="off" <?php echo isset($fields['email']) ? ' value="' .e($fields['email']). '" ' : ''  ?>>
 			</label>
 			<label>
 				Your message*
